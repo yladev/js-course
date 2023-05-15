@@ -1,8 +1,9 @@
-import { answer } from "./addingtwovar.js";
-import { d, e, num3 } from "./coercion.js";
-import { j, k, l } from "./datatypes.js";
-import { a, m, n, number } from "./operators.js";
-import { c, z } from "./variables.js";
+import { answer } from "./AddingTwoVar.js";
+import { d, e, num3 } from "./Coercion.js";
+import { j, k, l } from "./Datatypes.js";
+import { a, m, n, number } from "./Operators.js";
+import { c, z } from "./Variables.js";
+import { numberArrays, stringArrays } from "./arrays.js";
 
 console.log("Answer => " + answer);
 
@@ -22,3 +23,13 @@ console.log(a);
 console.log(m);
 console.log(n);
 console.log(number);
+
+console.log(numberArrays);
+console.log(typeof numberArrays);
+console.log("arrays length => " + numberArrays.length); // actual number, not zero based
+console.log(numberArrays); // push array
+console.log("pop array => " + numberArrays);
+console.log("array index number 0 => " + numberArrays[0]);
+console.log("array index number 3 => " + numberArrays[3]);
+console.log(stringArrays);
+console.log(stringArrays[5]); // undefined array
