@@ -1,6 +1,7 @@
 import { answer } from "./AddingTwoVar.js";
 import { d, e, num3 } from "./Coercion.js";
 import { j, k, l } from "./Datatypes.js";
+import { calculateTest, sayHello } from "./FunctionDeclaration.js";
 import { a, m, n, number } from "./Operators.js";
 import { c, z } from "./Variables.js";
 import { numberArrays, stringArrays } from "./arrays.js";
@@ -33,3 +34,11 @@ console.log("array index number 0 => " + numberArrays[0]);
 console.log("array index number 3 => " + numberArrays[3]);
 console.log(stringArrays);
 console.log(stringArrays[5]); // undefined array
+
+// function
+sayHello("Jason");
+sayHello("Andrew");
+sayHello("Yan Yan");
+
+let tax = calculateTest(100);
+console.log(tax);
