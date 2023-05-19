@@ -52,3 +52,33 @@ greeting();
 
 let total = calculation(5);
 console.log(total);
+
+// function expression
+setTimeout(function () {
+  console.log("Jason Andrew");
+}, 5000);
+
+setTimeout(() => {
+  console.log("I attend in Level-3 diploma in computing");
+}, 6000);
+
+function conditionStatement() {
+  let isMale = false;
+  if (isMale) {
+    console.log("its male");
+  } else {
+    setTimeout(() => {
+      console.log("its female");
+    }, 7000);
+  }
+}
+conditionStatement();
+
+// let counter = 0;
+// function timeOut() {
+//   setTimeout(() => {
+//     console.log("hi" + counter++);
+//     timeOut();
+//   }, 2000);
+// }
+// timeOut();
