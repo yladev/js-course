@@ -1,6 +1,7 @@
 import { answer } from "./AddingTwoVar.js";
 import { d, e, num3 } from "./Coercion.js";
 import { j, k, l } from "./Datatypes.js";
+import { adder, logger } from "./Function.js";
 import {
   calculation,
   calculationTest,
@@ -82,3 +83,6 @@ conditionStatement();
 //   }, 2000);
 // }
 // timeOut();
+
+logger();
+adder(2, 3);
