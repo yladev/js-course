@@ -1,7 +1,12 @@
 import { answer } from "./AddingTwoVar.js";
 import { d, e, num3 } from "./Coercion.js";
 import { j, k, l } from "./Datatypes.js";
-import { calculateTest, sayHello } from "./FunctionDeclaration.js";
+import {
+  calculation,
+  calculationTest,
+  greeting,
+  sayHello,
+} from "./FunctionDeclaration.js";
 import { a, m, n, number } from "./Operators.js";
 import { c, z } from "./Variables.js";
 import { numberArrays, stringArrays } from "./arrays.js";
@@ -40,5 +45,10 @@ sayHello("Jason");
 sayHello("Andrew");
 sayHello("Yan Yan");
 
-let tax = calculateTest(100);
+let tax = calculationTest(100);
 console.log(tax);
+
+greeting();
+
+let total = calculation(5);
+console.log(total);

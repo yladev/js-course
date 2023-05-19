@@ -4,7 +4,16 @@ export function sayHello(name) {
   console.log("------------");
 }
 
-export function calculateTest(amount) {
+export function calculationTest(amount) {
   let result = amount * 0.0825;
   return result;
+}
+
+export function greeting() {
+  console.log("Hello World");
+}
+
+export function calculation(totalAmount) {
+  let totalPrice = totalAmount * 8;
+  return totalPrice;
 }
