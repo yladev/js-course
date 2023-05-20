@@ -1,7 +1,7 @@
 import { answer } from "./AddingTwoVar.js";
 import { d, e, num3 } from "./Coercion.js";
 import { j, k, l } from "./Datatypes.js";
-import { adder, logger } from "./Function.js";
+import { adder, logger, subtraction, toUpper } from "./Function.js";
 import {
   calculation,
   calculationTest,
@@ -56,7 +56,7 @@ console.log(total);
 
 // function expression
 setTimeout(function () {
-  console.log("Jason Andrew");
+  console.log("Yan Linn Aung");
 }, 5000);
 
 setTimeout(() => {
@@ -86,3 +86,6 @@ conditionStatement();
 
 logger();
 adder(2, 3);
+subtraction(6, 3);
+toUpper("Jason Andrew");
+toUpper("Yladev");
